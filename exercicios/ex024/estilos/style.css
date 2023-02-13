@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https//fonts.googleapis.com/css2?family=Passion+One:wgt@400;700;900&display=swap');
+
+@import url('https//fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+
+    --fonte1:Verdana, Geneva,Tahoma,Sans-Serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3:'Sriracha',cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+body{
+    background-color: rgba(147, 186, 191, 0.816);
+    font-family: var(--fonte1);
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;  
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder ;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 10px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 4vh;
+    padding-left: 5vw;
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
+    line-height: 2em;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 5px rgba(49, 49, 49, 0.358);
+}
+section > p{
+    padding: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.images{
+    background-color: rgb(52, 51, 51);
+    color: white; 
+     
+}
+
+section.images > p{
+    background-color: rgba(1, 1, 1, 0.435);
+    display: inline-block;
+    padding: 5px; 
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.368);
+}
+
+section#img01{
+    background-image:url('../imagens/img03.jpg') ;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/FB_IMG_1676228866701.jpg');
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
