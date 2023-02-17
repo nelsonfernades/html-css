@@ -1,0 +1,89 @@
+@charset "UTF-8";
+        *{
+           border-collapse: collapse;  
+        }
+        body{
+           background-position: center center;
+        }
+        h1{
+            background-image: linear-gradient(to right,rgba(0, 0, 0, 0.64)
+            ,transparent);
+            color: white;
+            padding-left: 130px;
+        }
+        table{
+            background-position: center center;
+            height: 2em;
+            width: 450px;
+            margin: 10px;
+            border: 1px solid black;            
+        }
+        td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        td.num{
+            text-align: right;
+        }
+        thead{
+            background-color: black;
+            color: white;
+            position: relative;
+           
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+            padding: 10px;
+        }
+        tfoot{
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgba(105, 105, 105, 0.793);
+        }
+        div{
+            margin-bottom: 30px;
+        }
+       div > p{
+        text-align: justify;
+        margin: 10px;
+        padding: 30px;
+        line-height: 2em;
+
+       }
+       div > p.normal{
+        border-style: 1px solid black;
+        border-radius: 5px;
+        font-weight: bolder;
+        background-size: cover;
+        padding: 20px;
+        height: 500px;
+       }
+       div > p#mg01{
+        background-image: url(imagens/FB_IMG_1676228866701.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+       }
+       div > p#mg02{
+        background-image: url(imagens/img03.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+        footer > a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: white;
+        }
+        footer > a:hover{
+            text-decoration: underline;
+        }
+        
