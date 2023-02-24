@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testando Formúlarios</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome"  >Nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha">
+        </p>
+        <p>
+            <label for="idata">Data:</label>
+            <input type="date" name="data" id="idata">
+        </p>
+        <p>
+            <label for="imes">Mês:</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p>
+            <label for="iestado">Países:</label>
+            <select name="estado" id="iestado">
+                <optgroup>
+                    <option value="">Angola</option>
+                    <option value="">Brazil</option>
+                    <option value="">Rwanda</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+        <p>
+            <input type="button" value="Cadastrar">
+            <input type="checkbox" name="" id="">
+            <input type="email" name="em" id="">
+            <input type="file" name="" id="">
+            <input type="range" name="" id="">
+            <input type="url" name="" id="">
+        </p>
+    </form>
+</body>
+</html>

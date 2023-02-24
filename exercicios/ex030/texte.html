@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Dados</h1>   
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Digite todos dados</legend>
+            <p>
+                <div>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" required autocomplete="username">
+                </div>
+            </p>
+            <p>
+                <div>
+                    <label for="imail">Email:</label>
+                    <input type="email" name="email" id="imail" autocomplete="email" required placeholder="digite aqui">
+                </div>
+            </p>
+            <p>
+                <div>
+                    <label for="itelefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="itelefone" required placeholder=" xxx-xxx-xxx" autocomplete="tel">
+                </div>
+            </p>
+        </fieldset>
+        <p>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </div>
+        </p>
+    </form>
+</body>
+</html>
